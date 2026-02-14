@@ -3,7 +3,6 @@ import { incidentsApi } from '../api/incidents';
 import IncidentTable from '../components/IncidentTable';
 import Pagination from '../components/Pagination';
 import Filters from '../components/Filters';
-import LoadingSpinner from '../components/LoadingSpinner';
 
 const PAGE_SIZE = 10;
 const DEBOUNCE_MS = 400;
