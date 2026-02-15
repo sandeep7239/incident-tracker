@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_BASE = process.env.REACT_APP_API_URL || 'https://incident-tracker-1.onrender.com';
+const API_BASE = process.env.REACT_APP_API_URL || 'https://incident-tracker-1.onrender.com/api';
 const TOKEN_KEY = 'incident_tracker_token';
 
 export function getStoredToken() {
