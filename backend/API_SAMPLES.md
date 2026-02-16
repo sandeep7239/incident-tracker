@@ -1,6 +1,6 @@
 # API request/response samples (realistic data)
 
-Base URL: `http://localhost:8080/api`
+Base URL: `https://incident-tracker-1.onrender.com/api`
 
 **Authentication:** All incident APIs require a JWT. First call **POST /api/auth/login** to get a token, then send it in the header: `Authorization: Bearer <token>`.
 
