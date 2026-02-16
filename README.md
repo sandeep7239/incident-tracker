@@ -272,6 +272,28 @@ REACT_APP_API_URL=https://incident-tracker-1.onrender.com/api
 
 ---
 
+Future Improvements
+
+If given more time, the following enhancements would be implemented:
+
+Production auth: Refresh tokens, httpOnly cookies, RBAC
+
+User system: DB-backed users, signup/reset flow, OAuth login
+
+Performance: Query optimization, Redis caching, better indexing
+
+Observability: Structured logging, metrics, distributed tracing
+
+DevOps: Docker setup, CI/CD pipeline, IaC (Terraform)
+
+UX: Real-time updates (WebSockets), dark mode, bulk actions
+
+Testing: E2E tests (Cypress), contract testing, load testing
+
+Scalability: Event-driven architecture, microservice-ready design
+
+---
+
 ## License
 
 Built as part of a full-stack assignment/demo project. Free to reuse and extend.
